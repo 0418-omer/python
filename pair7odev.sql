@@ -18,7 +18,6 @@ where name like '__ş%'
 --4 nolu sorgu : Bir kişinin sipariş oluştururken kullanacağı insert komutlarını yazınız (alt tablolar dahil ve siparişte en az 3 ürün olacak şekilde)
 insert into shopping_basket(products_id,discounts_id,quantity,total_price) 
 values (1,1,1,100)
-
 insert into orders(products_sellers_id,shipping_company_id,customer_id,delivery_date) 
 values (1,1,1,'03.12.2022')
 
